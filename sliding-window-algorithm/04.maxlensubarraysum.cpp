@@ -7,7 +7,8 @@ int main()
     int a[n];
     for(int i=0;i<n;i++) cin>>a[i];
     cin>>sum;
-    int i=0,j=1,currsum=a[i];
+    int i=0,j=1;
+    int currsum=a[i];
     int maxsize=0;
     while(j<n)
     {
