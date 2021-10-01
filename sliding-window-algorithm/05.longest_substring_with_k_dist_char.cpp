@@ -3,9 +3,8 @@ using namespace std;
 int main()
 {
     string s;
-    cin>>s;
     int k;
-    cin>>k;
+    cin>>s>>k;
     map<char,int> mp;
     int c=k-1;
     int i=0,j=1;
