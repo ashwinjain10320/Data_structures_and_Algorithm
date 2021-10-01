@@ -21,5 +21,6 @@ int main()
             currsum-=a[i++];
         }
     }
+    if(currsum==sum) maxsize=max(maxsize,j-i);
     cout<<maxsize<<endl;
 }
